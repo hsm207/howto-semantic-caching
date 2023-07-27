@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "howto-gptcache-weaviate"
+version = "0.1.0"
+description = "How to use GPTCache with Weaviate"
+authors = ["hsm207 <hsm207@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+weaviate-client = "^3.22.1"
+gptcache = "^0.1.37"
+ipykernel = "^6.25.0"
+black = {extras = ["jupyter"], version = "^23.7.0"}
+isort = "^5.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
