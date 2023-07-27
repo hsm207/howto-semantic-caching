@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../.venv/lib/python3.11/site-packages/gptcache"
+		},
+		{
+			"path": "../.venv/lib/python3.11/site-packages/gptcache/manager/vector_data"
+		}
+	],
+	"settings": {}
+}
