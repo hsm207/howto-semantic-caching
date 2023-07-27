@@ -836,6 +836,16 @@ files = [
 plugins = ["importlib-metadata"]
 
 [[package]]
+name = "pysqlite3"
+version = "0.5.1"
+description = "DB-API 2.0 interface for Sqlite 3.x"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pysqlite3-0.5.1.tar.gz", hash = "sha256:45496b7a5e5931afb9993f76ce48873d126abfc0fe70b65373970d353fca2c24"},
+]
+
+[[package]]
 name = "python-dateutil"
 version = "2.8.2"
 description = "Extensions to the standard Python datetime module"
@@ -1145,4 +1155,4 @@ grpc = ["grpcio", "grpcio-tools"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "6d8cf912568cf9f8120532bded24d14d18f03e1689d5f802acf071d97db25422"
+content-hash = "7e23fae066597fe5e2088141a60c583a0eeb2af8ac3aa2209b6267c43390ecc0"
